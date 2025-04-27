@@ -1,0 +1,16 @@
+<section class="order-form" id="order">
+    <h2>অর্ডার ফর্ম</h2>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSd7Ns7J2y-2kV_KahP_yxF96H5lFdbR7Vtnn_sHl4jm7AobvA/viewform" method="get" target="_blank">
+        <input type="text" name="name" placeholder="আপনার নাম" required>
+        <input type="text" name="phone" placeholder="মোবাইল নাম্বার" required>
+        <textarea name="address" placeholder="আপনার ঠিকানা" required></textarea>
+        <select name="product">
+            <option value="">-- পণ্য নির্বাচন করুন --</option>
+            <option value="Panjabi 1">পাঞ্জাবি ১</option>
+            <option value="Panjabi 2">পাঞ্জাবি ২</option>
+            <option value="Tshirt 1">টি-শার্ট ১</option>
+            <option value="Tshirt 2">টি-শার্ট ২</option>
+        </select>
+        <button type="submit">অর্ডার কনফার্ম করুন</button>
+    </form>
+</section>
